@@ -18,10 +18,12 @@
 ###### 참고 : https://medium.com/@minjinsormyagmarsuren/voxelnet-implementation-234d3d965a89
   - Point Cloud를 3D Voxel(=3차원의 큐브 형태)로 변환하여 객체를 감지.
   - Voxel feature encoding(VFE) layer를 통해 각 voxel내의 point들의 정보를 모아서 하나의 특징 표현으로 변환
-  - 3D Convolution은 인접한 voxel들의 특징을 결합하여 처리. 이 과정을 통해 객체의 전체적인 형태와 패턴을 인식하고 더 세부적인 3D 공간 정보를 추출.
+  - [3D Convolution]은 인접한 voxel들의 특징을 결합하여 처리. 이 과정을 통해 객체의 전체적인 형태와 패턴을 인식하고 더 세부적인 3D 공간 정보를 추출.
   - 특징을 추출한 후 RPN (=Region Proposal Network)이 객체가 있을만한 영역을 제안.
 
 
+
+[3D Convolution]: https://www.kaggle.com/code/shivamb/3d-convolutions-understanding-use-case
 [PointNet++]: https://proceedings.neurips.cc/paper_files/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf
 [PointNet 결과물]: https://stanford.edu/~rqi/pointnet/
 [what is max pooling?]: https://www.alooba.com/skills/concepts/deep-learning/max-pooling/
