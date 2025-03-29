@@ -27,7 +27,7 @@
 
 
 ...? /opt/ros/humble/share 폴더에는 turtlebot3_gazebo 패키지가 존재하지 않음 ==> 앱 실행시 에러남: 패키지 추가 설치 또는 환경 설정 수정 필요해보임     
-...? 튜토리얼에서 말하는 Jazzy and newer, Iron and older 버전의 의미를 모르겠음   
+...! Ubuntu 22.04에서 Gazebo는 amd64만 지원 : https://classic.gazebosim.org/tutorials?tut=install_ubuntu    
 
 
 
